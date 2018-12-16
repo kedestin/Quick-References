@@ -1,6 +1,4 @@
-A list of quick references for things I find useful
-
-## Table of Contents
+# Table of Contents
 
  * ### Development
    * [Win-SSHFS](https://github.com/kedestin/Quick-References/blob/master/Development/Win-SSHFS.md) - Mount filesystems over ssh
