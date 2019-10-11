@@ -1,4 +1,4 @@
-# Visual Studio Code + Remote:SSH
+# Visual Studio Code + Remote - SSH
 
 #### Relevant links
 
@@ -42,7 +42,7 @@
    * Enter your ssh connection command
     
     ![connectioncommand](assets/vscode-connectioncommand.png)
-    
+
    * Select the SSH configuration file to update. (When in doubt, use the one local to your user)
     
     ![configfile](assets/vscode-selectconfigfile.png)
@@ -85,4 +85,4 @@ Instructions can be found [here](https://code.visualstudio.com/docs/remote/troub
 
 #### Things to be aware of
 
-* When using Remote:SSH, installing extensions will place the extension's file on the remote server. This can cause issues if you have a small disk quota and install extensions with large files.
+* When using Remote - SSH, installing extensions will place the extension's file on the remote server. This can cause issues if you have a small disk quota and install extensions with large files.
