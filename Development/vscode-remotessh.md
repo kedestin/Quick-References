@@ -3,6 +3,7 @@
 #### Relevant links
 
 [Visual Studio Code (vscode)](https://code.visualstudio.com/download)
+
 [Remote - SSH](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh)
 
 ### What is it?
@@ -16,28 +17,28 @@
    * Open Visual Studio Code
     
     ![newpage](assets/vscode-newwindow.png)
-    
+
    * Show extensions in sidebar (`⇧⌘X` on Mac, `Ctrl+Shift+X` on Windows)
     
     ![extensions](assets/vscode-extensionbar.png)
-    
+
    * Install `Remote - SSH`
     
     ![search](assets/vscode-installremotessh.png)
-    
+
  * Configure `Remote - SSH`
    * Click on the `><` symbol in the bottom left corner
     
     ![openMenu](assets/vscode-openremotemenu.png)
-    
+
    * Click on `Remote - SSH: Connect to Host...`
     
     ![connecttohost](assets/vscode-connecttohost.png)
-    
+
    * Click on `+ Add New SSH Host...`
     
     ![addnewhost](assets/vscode-addnewhost.png)
-    
+
    * Enter your ssh connection command
     
     ![connectioncommand](assets/
@@ -45,30 +46,30 @@
    * Select the SSH configuration file to update. (When in doubt, use the one local to your user)
     
     ![configfile](assets/vscode-selectconfigfile.png)
-    
+
 
 ### To use
 
  * Click on the `><` symbol in the bottom left corner
   
   ![openMenu](assets/vscode-openremotemenu.png)
-  
+
  * Click on `Remote - SSH: Connect to Host...`
   
   ![connecttohost](assets/vscode-connecttohost.png)
-  
+
  * Click on name of the host your want to connect to
   
   ![clickhostname](assets/vscode-selectconfiguredhost.png)
-  
+
  * In the new window that opens, enter your password if prompted
   
   ![enterpassword](assets/vscode-enterpassword.png)
-  
+
  * On success, you should see `SSH: NAMEOFYOURSERVER` in the bottom left corner
   
   ![success](assets/vscode-successfulconnection.png)
-  
+
 
   You should be able to click on `Open Folder` (if you can't see it, Toggle the Sidebar [`⌘B`, `Ctrl+B`] then show the explorer pane [`⇧⌘E`, `Ctrl+Shift+E`]) to open a folder on the remote server.
 
