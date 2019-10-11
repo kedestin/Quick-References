@@ -41,8 +41,8 @@
 
    * Enter your ssh connection command
     
-    ![connectioncommand](assets/
-    vscode-connectioncommand.png)
+    ![connectioncommand](assets/vscode-connectioncommand.png)
+    
    * Select the SSH configuration file to update. (When in doubt, use the one local to your user)
     
     ![configfile](assets/vscode-selectconfigfile.png)
