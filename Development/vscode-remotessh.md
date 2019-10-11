@@ -46,7 +46,7 @@
 
   You should be able to click on `Open Folder` (if you can't see it, Toggle the Sidebar [`⌘B`, `Ctrl+B`] then show the explorer pane [`⇧⌘E`, `Ctrl+Shift+E`]) to open a folder on the remote server.
 
-  The inbuilt terminal (`` ⌃` ``,`` Ctrl+` ``) should also automatically be on the remote server.
+  The inbuilt terminal (`` ⌃` ``,`` Ctrl+` ``) should also automatically open to your home directory on the remote server.
 
 
 ### Appendix: Key based Authentication
