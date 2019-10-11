@@ -2,7 +2,7 @@
 
 #### Relevant links
 
-[Visual Studio Code (vscode)](https://code.visualstudio.com/download)
+[Visual Studio Code (vscode)](https://code.visualstudio.com/docs)
 
 [Remote - SSH](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh)
 
