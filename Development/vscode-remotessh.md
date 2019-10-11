@@ -78,7 +78,7 @@
 
 ### Appendix: Key based Authentication
 
-It is possible to use an `ssh key` that is tied to your computer to authenticate to a remote server instead of a password. The key is authenticated automatically, without user interaction which makes `Remote - SSH` far more convenient to use.
+It is possible to use an `ssh key` that is tied to your computer to authenticate to a remote server instead of a password. The key is authenticated automatically, without user interaction which can make `Remote - SSH` far more convenient to use.
 
 Instructions can be found [here](https://code.visualstudio.com/docs/remote/troubleshooting#_quick-start-ssh-key)
 
