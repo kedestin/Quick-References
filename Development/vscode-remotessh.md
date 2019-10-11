@@ -83,6 +83,6 @@ It is possible to use an `ssh key` that is tied to your computer to authenticate
 Instructions can be found [here](https://code.visualstudio.com/docs/remote/troubleshooting#_quick-start-ssh-key)
 
 
-#### Things to be aware of
+### Things to be aware of
 
 * When using Remote - SSH, installing extensions will place the extension's file on the remote server. This can cause issues if you have a small disk quota and install extensions with large files.
