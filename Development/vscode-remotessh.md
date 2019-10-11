@@ -58,7 +58,7 @@
   
   ![connecttohost](assets/vscode-connecttohost.png)
 
- * Click on name of the host your want to connect to
+ * Click on name of the host you want to connect to
   
   ![clickhostname](assets/vscode-selectconfiguredhost.png)
 
@@ -73,7 +73,7 @@
 
   You should be able to click on `Open Folder` (if you can't see it, Toggle the Sidebar [`⌘B`, `Ctrl+B`] then show the explorer pane [`⇧⌘E`, `Ctrl+Shift+E`]) to open a folder on the remote server.
 
-  The inbuilt terminal (`` ⌃` ``,`` Ctrl+` ``) should also automatically open to your home directory on the remote server.
+  The inbuilt terminal (`` ⌃` ``,`` Ctrl+` ``) should also automatically open to the currently opened folder.
 
 
 ### Appendix: Key based Authentication
