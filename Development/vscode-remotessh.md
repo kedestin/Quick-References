@@ -75,8 +75,26 @@
 
   The inbuilt terminal (`` ⌃` ``,`` Ctrl+` ``) should also automatically open to the currently opened folder.
 
+### Appendix 1: Limiting disk usage of C++ Extension
 
-### Appendix: Key based Authentication
+The C++ extension can easily use multiple gigabytes of storage at a time, which can make it unusable in settings where users have a small disk quota.
+
+The adding the following to your settings for the remote host can help mitigate the disk usage and keep it a more reasonable figure (300-400MB vs 1GB+).
+
+```json
+{
+        "C_Cpp.intelliSenseCacheSize": 90,
+        // https://github.com/microsoft/vscode/issues/22557
+        "C_Cpp.default.browse.databaseFilename": "~/.vscode-cpptools/vc.db"
+}
+```
+
+Get to your remote host settings by doing the following 
+ * Connect to the host that the C++ extension is installed on
+ * Open the Command Pallette (`⇧⌘P` on Mac, `Ctrl+Shift+P` on Windows) and search for `Preferences: Open Remote Settings (SSH: INSERT_YOUR_HOSTNAME_HERE)`
+ * Paste to above settings into your settings file.
+
+### Appendix 2: Key based Authentication
 
 It is possible to use an `ssh key` that is tied to your computer to authenticate to a remote server instead of a password. The key is authenticated automatically, without user interaction which can make `Remote - SSH` far more convenient to use.
 
