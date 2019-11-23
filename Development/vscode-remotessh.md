@@ -81,7 +81,7 @@ The C++ extension can easily use multiple gigabytes of storage at a time, which 
 
 The adding the following to your settings for the remote host can help mitigate the disk usage and keep it a more reasonable figure (300-400MB vs 1GB+).
 
-```json
+```jsonc
 {
         "C_Cpp.intelliSenseCacheSize": 90,
         // https://github.com/microsoft/vscode/issues/22557
