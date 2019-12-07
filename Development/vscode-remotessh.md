@@ -91,6 +91,8 @@ Adding the following to your settings for the remote host can help mitigate the 
 
 Get to your remote host settings by doing the following 
  * Connect to the host that the C++ extension is installed on
+ * Clear the C++ extension's cache
+  * On a linux machine, by default this can be done by running `rm -rf ~/.vscode-cpptools/ipch/* ~/.vscode-server/data/User/workspaceStorage/*`
  * Open the Command Pallette (`⇧⌘P` on Mac, `Ctrl+Shift+P` on Windows) and search for `Preferences: Open Remote Settings (SSH: INSERT_YOUR_HOSTNAME_HERE)`
  * Paste to above settings into your settings file.
 
