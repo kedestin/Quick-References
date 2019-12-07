@@ -79,7 +79,7 @@
 
 The C++ extension can easily use multiple gigabytes of storage at a time, which can make it unusable in settings where users have a small disk quota.
 
-The adding the following to your settings for the remote host can help mitigate the disk usage and keep it a more reasonable figure (300-400MB vs 1GB+).
+Adding the following to your settings for the remote host can help mitigate the disk usage and keep it a more reasonable figure (300-400MB vs 1GB+).
 
 ```jsonc
 {
