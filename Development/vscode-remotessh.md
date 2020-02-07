@@ -69,6 +69,8 @@
  * On success, you should see `SSH: NAMEOFYOURSERVER` in the bottom left corner
   
   ![success](assets/vscode-successfulconnection.png)
+  
+  *Note: Sometimes on Windows, the first connection after you configure a host will fail. But it'll usually work if you try again*
 
 
   You should be able to click on `Open Folder` (if you can't see it, Toggle the Sidebar [`⌘B`, `Ctrl+B`] then show the explorer pane [`⇧⌘E`, `Ctrl+Shift+E`]) to open a folder on the remote server.
