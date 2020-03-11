@@ -108,3 +108,16 @@ Instructions can be found [here](https://code.visualstudio.com/docs/remote/troub
 ### Things to be aware of
 
 * When using Remote - SSH, installing extensions will place the extension's file on the remote server. This can cause issues if you have a small disk quota and install extensions with large files.
+
+
+### Update 3/10/20 - Can't connect on version 1.4.3
+
+Issue: VSCode fails to connect on version 1.4.3
+
+Fix: 
+
+>If I read the release notes right on 1.4.3, Remote SSH has changed the default of option remote.SSH.useLocalServer to true. It appears that this option, combined with a connection to an SSH server and user where the default shell is either 1) not BASH, 2) or is FISH (my case), the connection establishment hangs indefinitely.
+> 
+> Setting remote.SSH.useLocalServer to false OR setting the default shell to BASH resolves the issue. So the problem likely has to do with the interaction between the Local Server mode and FISH (perhaps shells other than BASH also have this issue).
+
+https://github.com/microsoft/vscode-remote-release/issues/2513#issuecomment-597340686
