@@ -102,7 +102,7 @@ Get to your remote host settings by doing the following
 
 It is possible to use an `ssh key` that is tied to your computer to authenticate to a remote server instead of a password. The key is authenticated automatically, without user interaction which can make `Remote - SSH` far more convenient to use.
 
-Instructions can be found [here](https://code.visualstudio.com/docs/remote/troubleshooting#_quick-start-ssh-key)
+Instructions can be found [here](https://code.visualstudio.com/docs/remote/troubleshooting#_quick-start-using-ssh-keys)
 
 
 ### Things to be aware of
